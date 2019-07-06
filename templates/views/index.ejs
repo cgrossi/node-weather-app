@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <%- include('../partials/header') %>
+  <p>Use this page to get weather for any location!</p>
+  <form>
+    <input type="text" required>
+    <button type="submit">Search Weather</button>
+  </form>
+  <h3 class="weatherLocation"></h3>
+  <p class="weatherDisplay"></p>
+  <%- include('../partials/footer') %>
+  <script src="/js/app.js"></script>
+</body>
+
+</html>
